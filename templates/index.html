@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyApp</title>
+    <!--flask uses jinja, so hreaf can't be "styles.css" it wants a url so we use that-->
+
+    <link rel = "stylesheet" href={{url_for("static", filename = "style.css")}} />
+</head>
+<body>
+    <h1>Welcome homies</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius recusandae officia animi eligendi laborum doloremque fugiat sed sint non, ea dignissimos, a ipsum numquam obcaecati ducimus, esse neque quasi aspernatur!</p>
+
+</body>
+</html>
